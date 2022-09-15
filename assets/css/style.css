@@ -1,0 +1,40 @@
+
+html{
+  font-family:"SoDo Sans SemiBold" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+*{
+  margin:0px;
+}
+
+
+/*This is for the nav */
+.navigator_n01 {
+  background-color: #0C542B;
+}
+.navigator_n02 {
+  width: 100%;
+  display: flex;
+}
+.icon_navigator{
+  width: 100px;
+  height: 100px;
+}
+.Left{
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+.Right {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+
+}
+.Link{
+  margin:10px;
+}
