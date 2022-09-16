@@ -13,12 +13,18 @@ html{
 
 
 /*This is for the nav */
+header{
+  position: sticky;
+}
 .navigator_n01 {
   background-color: #0C542B;
+
 }
 .navigator_n02 {
   width: 100%;
   display: flex;
+  position: sticky;
+  top:0;
 }
 .icon_navigator{
   width: 100px;
