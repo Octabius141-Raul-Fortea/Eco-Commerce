@@ -9,13 +9,9 @@ html{
 }
 *{
   margin:0px;
+  overflow:auto;
 }
-
-
 /*This is for the nav */
-header{
-  position: sticky;
-}
 .navigator_n01 {
   background-color: #0C542B;
 
@@ -42,5 +38,15 @@ header{
 
 }
 .Link{
-  margin:10px;
+  margin:25px;
+}
+
+
+/*This is for the principal img*/
+
+.imgfull {
+  height: 100vh;
+  position: center;
+  background-color: #0C542B;
+  width: 100%;
 }
